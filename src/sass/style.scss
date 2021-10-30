@@ -10,4 +10,22 @@
 }
 @import 'blocks/promo';
 @import 'blocks/header';
-@import 'blocks/buttons'
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+
+
+@media (max-width: 1055px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (max-width: 767px) {
+    .title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
