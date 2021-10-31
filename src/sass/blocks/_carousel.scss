@@ -1,5 +1,5 @@
 .carousel {
-    padding: 81px 0;
+    padding: 81px 10px;
     &__inner {
         position: relative;
         width: 750px;
@@ -20,6 +20,35 @@
         }
         &_right {
             right: -66px
+        }
+    }
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .carousel {
+        width: 90%;
+        margin: 0 auto;
+        &__inner{
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .carousel {
+        width: 79%;
+        margin: 0 auto;
+        &__inner{
+            img {
+                width: 100%;
+            }
         }
     }
 }
