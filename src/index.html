@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Document</title>
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -52,14 +53,14 @@
             </div>
         </div>
     </section>
-    <section class="advantages">
+    <section class="advantages animate__fadeInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="1s">
         <div class="container">
             <h2 class="title">
                 НАШИ ПРЕИМУЩЕСТВА
             </h2>
             <div class="advantages__wrapper">
                 <div class="advantages__item">
-                    <img class="advantages__logo" src="img/logo/advantages/cup.png" alt="">
+                    <img class="advantages__logo advantages__logo_animation" src="img/logo/advantages/cup.png" alt="">
                     <h3 class="advantages__subtitle">
                         Делимся опытом
                     </h3>
@@ -68,7 +69,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img class="advantages__logo" src="img/logo/advantages/heart.png" alt="">
+                    <img class="advantages__logo advantages__logo_animation" src="img/logo/advantages/heart.png" alt="">
                     <h3 class="advantages__subtitle">
                         Заботимся о здоровье
                     </h3>
@@ -77,7 +78,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img class="advantages__logo" src="img/logo/advantages/shoe.png" alt="">
+                    <img class="advantages__logo advantages__logo_animation" src="img/logo/advantages/shoe.png" alt="">
                     <h3 class="advantages__subtitle">
                         Учим бегать
                     </h3>
@@ -91,7 +92,7 @@
             </div>
         </div>
     </section>
-    <section class="consultation">
+    <section class="consultation animate__fadeInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="1s">
         <div class="container">
             <h2 class="title title_left">
                 Получите бесплатную консультацию
@@ -110,7 +111,7 @@
             </form>
         </div>
     </section>
-    <section class="carousel">
+    <section class="carousel animate__fadeInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="1s">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -127,7 +128,7 @@
             <button type="button" class="carousel__slick carousel__slick_right"><img src="icons/chevron-right-solid.png"></button>
         </div>
     </section>
-    <section class="catalog">
+    <section class="catalog animate__fadeInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="1s">
         <div class="container">
             <h2 class="title">Каталог пульсометров</h2>
             <ul class="catalog__tabs">
@@ -561,12 +562,17 @@
         </div>
     </div>
 
+    <a href="#up" class="pageup">
+        <img src="img/logo/arrow-up-icon.png" alt="up"></img>
+    </a>
+
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
